@@ -1,0 +1,236 @@
+*
+{
+	margin: 0;
+	padding: 0;
+}
+
+/*navbar start*/
+
+.container-fluid
+{
+	background: #1e1b32;
+	color: #fff;
+}
+nav .navbar-brand
+{
+	text-decoration: none;
+	color: #fff;
+}
+.navbar-toggler-icon
+{
+	color: #fff;
+	font-size: 40px;
+	margin-top: 10px;
+}
+.navbar-nav .nav-item .nav-link
+{
+	text-decoration: none;
+	color: #fff;
+	font-weight: 500;
+	font-size: 16px;
+}
+.navbar-nav .nav-item .active
+{
+	color: #e33;
+}
+.navbar-nav .nav-item .nav-link:hover
+{
+	color: #e33;
+}
+nav form .form-control
+{
+	background: transparent;
+	outline: none;
+}
+
+/*navbar end*/
+
+
+/*home-page start*/
+
+.homepage h6
+{
+	color: lightgrey;
+	padding-top: 120px;
+	font-weight: 400;
+}
+.homepage h1
+{
+	font-size: 45px;
+}
+.homepage p 
+{
+	font-family: arial;
+	letter-spacing: 1px;
+	padding-top: 20px;
+	color: lightgrey;
+}
+
+/*home-page end*/
+
+
+/*about-page start*/
+
+.about
+{
+	background: #26243c;
+}
+.about h5
+{
+	color: lightgrey;
+	font-weight: 400;
+}
+.about .box
+{
+	background: #1e1b32;
+	border-radius: 10px;
+}
+.about .row p 
+{
+	color: lightgrey;
+	font-family: arial;
+	line-height: 30px;
+	letter-spacing: 1px;
+}
+@media (max-width: 770px)
+{
+	.about .row .box
+	{
+		margin-top: 20px;
+	}
+}
+
+/*about-page end*/
+
+
+/*service-page start*/
+
+.service .box
+{
+	background: #26243c;
+	border-radius: 10px;
+	cursor: pointer;
+}
+.service .box h4 ion-icon
+{
+	font-size: 40px;
+	text-align: center;
+	color: #e33;
+	background: #fff;
+	border-radius: 50%;
+	padding: 20px;
+	transition: 0.5s;
+}
+.service .box h5 ion-icon
+{
+	font-size: 40px;
+	text-align: center;
+	color: #fff;
+}
+.service .box p
+{
+	font-size: 18px;
+	line-height: 30px;
+}
+.service .box:hover h4 ion-icon
+{
+	background: #e33;
+	color: #fff;
+	transform: rotate(360deg);
+}
+@media (max-width: 770px)
+{
+	.service .row .box
+	{
+		margin-top: 20px;
+	}
+}
+
+/*service-page end*/
+
+
+/*blog-page start*/
+
+.blog
+{
+	background: #26243c;
+}
+.blog .row .box
+{
+	background: #1e1b32;
+	border-radius: 10px;
+	overflow: hidden;
+	transition: 0.5s;
+	cursor: pointer;
+}
+.blog .row .box h3
+{
+	font-family: arial;
+	font-weight: bold;
+	transition: 0.5s;
+}
+.blog .row .box:hover h3
+{
+	cursor: pointer;
+	color: #e33;
+}
+@media (max-width: 770px)
+{
+	.blog .row .box
+	{
+		margin-top: 20px;
+	}
+}
+
+/*blog-page end*/
+
+
+/*contactus-page start*/
+
+.contact .row form input
+{
+	background: #26243c;
+	height: 50px;
+}
+.contact .row form label
+{
+	font-family: arial;
+	font-size: 18px;
+}
+
+/*contactus-page end*/
+
+
+/*footer-page start*/
+
+.footer
+{
+	background: #26243c;
+}
+.footer p a 
+{
+	text-decoration: none;
+	color: #e33;
+	font-weight: bold;
+}
+
+/*footer-page end*/
+
+/*scroll*/
+
+.top
+{
+	font-size: 50px;
+	position: fixed;
+	left: 20px;
+	color: #fff;
+	top: calc(100% - 100px);
+	border-radius: 50%;
+	transition: 0.5s;
+	opacity: 1;
+}
+.top:hover
+{
+	color: #fff;
+	opacity: 1;
+}
